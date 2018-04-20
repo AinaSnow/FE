@@ -1,0 +1,18 @@
+{
+	"package": "com.forgeessentials.core.preloader.mixin",
+	"plugin": "com.forgeessentials.core.preloader.mixin.FEMixinConfig",
+    "refmap": "mixins.forgeessentials.refmap.json",
+	"mixins": [
+        "block.MixinBlockPortal",
+        "block.MixinBlockFire",
+        "block.MixinBlockEndPortal",
+        "command.MixinCommandHandler",
+        "entity.MixinEntity",
+        "entity.player.MixinEntityPlayer",
+		"entity.player.MixinEntityPlayerMP",
+        "item.crafting.MixinCraftingManager",
+        "network.MixinNetHandlerPlayServer",
+        "MixinDimensionManager"
+        //"tileentity.MixinMobSpawnerBaseLogic"
+	]
+}
